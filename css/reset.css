@@ -1,0 +1,22 @@
+* { -webkit-tap-highlight-color:transparent;}
+body,p,dd,h1,h2,h3,h4,b{ margin:0; font-weight:normal;}
+dl { margin:0;}
+ul{ list-style:none; margin:0; padding:0;}
+ol{ list-style:none; margin:0; padding:0;}
+img{ border:none;}
+/*b { font-weight:normal;}*/
+a{ text-decoration:none; }
+input,select{border:none; outline:medium; -webkit-appearance:none; }
+i,em,s{ font-style:normal; text-decoration:none;}
+li { -webkit-tap-highlight-color:transparent;}
+/* 特殊作用 */
+.ClearFix:after{ display:block; content:""; clear:both;}
+dl:after { display:block; content:""; clear:both;}
+@font-face { 
+    src:url('../fonts/text.TTF');
+    font-family: fzlt;
+}
+@font-face {
+    font-family: zzgf;
+    src: url('../fonts/btn.otf');
+}
